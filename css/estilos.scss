@@ -1,0 +1,16 @@
+//reset.css
+@import 'base/normalize';
+
+// Helpers
+@import 'helpers/variaveis';
+@import 'helpers/mixins';
+
+// Layout
+@import 'layout/geral';
+@import 'layout/header';
+@import 'layout/destaque';
+@import 'layout/sobre';
+@import 'layout/planos';
+@import 'layout/blog';
+@import 'layout/contato';
+@import 'layout/footer';

@@ -1,0 +1,16 @@
+// Variáveis Mixins
+@mixin borda-arredondada($raio: 0.3em) {
+    border-radius: $raio;
+    -webkit-border-radius: $raio;
+}
+
+%image_replacement {
+    text-indent: -9999px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+%sombra-padrao {
+    box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3); 
+}
